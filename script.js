@@ -1,10 +1,10 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
-const yesBtn = document.querySelector(".yes-btn");
-const noBtn = document.querySelector(".no-btn");
+const yesBtn = document.querySelector(".i know!-btn");
+const noBtn = document.querySelector(".i don't know..-btn");
 
-yesBtn.addEventListener("click", () => {
+i know!Btn.addEventListener("click", () => {
   question.innerHTML = "I love you too! 😘";
   gif.src =
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
